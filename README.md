@@ -11,16 +11,17 @@
 
 <br clear="right" />
 
----
 
-<div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=TaradaciucNicolae&show_icons=true&hide_border=true&theme=github_dark" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TaradaciucNicolae&layout=compact&hide_border=true&theme=github_dark" alt="Top languages" />
 
-</div>
+<hr/>
+<p align="center">
+<a href="https://github.com/TaradaciucNicolae">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=TaradaciucNicolae&layout=compact&exclude_lang=java+r&theme=merko" />
+</a>
+</p>
 
----
+
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./images/github-snake-dark.svg" />
