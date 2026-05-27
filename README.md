@@ -19,7 +19,7 @@
   <img src="./images/top-languages-by-repo.svg" alt="My Top Languages" />
 </p>
 
-
+---
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./images/github-snake-dark.svg" />
@@ -30,7 +30,5 @@
 ---
 
 <div align="center">
-
-### Building practical AI systems with a security-first mindset.
 
 </div>
