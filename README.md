@@ -1,4 +1,4 @@
-<img align="right" alt="Coding animation" width="300" src="./images/coding.gif" />
+<img align="right" alt="Security illustration" width="300" src="./images/hacker_transparent.png" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=800&size=32&duration=3000&pause=600&multiline=true&width=520&height=130&color=2EA043&vCenter=true&lines=%24+whoami;Nicolae+Taradaciuc" alt="Typing SVG" />
@@ -11,20 +11,18 @@
 
 <br clear="right" />
 
-
-
-<hr/>
-
-<p align="center">
-  <img src="./images/top-languages-by-repo.svg" alt="My Top Languages" />
-</p>
-
 ---
 
-<h3 align="center">Languages & Tools</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=ED8B00" alt="Java" />
+  <img src="https://img.shields.io/badge/C++-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00599C" alt="C++" />
+</p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,c,fastapi,flask,docker,git,github,linux,bash,sqlite,mysql,arduino,raspberrypi" alt="Languages and tools" />
+  <img src="https://img.shields.io/badge/Cybersecurity-0D1117?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" alt="Cybersecurity" />
+  <img src="https://img.shields.io/badge/Data%20%26%20AI-0D1117?style=for-the-badge&logo=googlegemini&logoColor=8E75B2" alt="Data & AI" />
+  <img src="https://img.shields.io/badge/Backend%20Engineering-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688" alt="Backend Engineering" />
 </p>
 
 ---
