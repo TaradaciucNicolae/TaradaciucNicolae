@@ -19,32 +19,6 @@
 
 </div>
 
----
-
-## 🛠️ Tech stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,git,github,linux,bash,sqlite,java,cpp,arduino,raspberrypi" alt="Tech stack" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/LLM%2FRAG-111111?style=for-the-badge" alt="LLM/RAG" />
-  <img src="https://img.shields.io/badge/AI%20Agents-111111?style=for-the-badge" alt="AI Agents" />
-  <img src="https://img.shields.io/badge/OpenAI%20API-111111?style=for-the-badge" alt="OpenAI API" />
-  <img src="https://img.shields.io/badge/ChromaDB-111111?style=for-the-badge" alt="ChromaDB" />
-  <img src="https://img.shields.io/badge/OWASP-111111?style=for-the-badge" alt="OWASP" />
-</p>
-
----
-
-## 📊 GitHub activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=TaradaciucNicolae&show_icons=true&hide_border=true&theme=github_dark" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TaradaciucNicolae&layout=compact&hide_border=true&theme=github_dark" alt="Top languages" />
-
-</div>
 
 ---
 
