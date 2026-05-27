@@ -52,15 +52,19 @@ jobs:
           ordered = languages.most_common(6)
 
           colors = {
-              "Python": "#2EA043",
-              "Java": "#f89820",
-              "C++": "#00599C",
-              "C": "#A8B9CC",
-              "Shell": "#89E051",
-              "MATLAB": "#e16737",
-              "HTML": "#e34c26",
+              "Python": "#3572A5",
+              "Java": "#b07219",
+              "C++": "#f34b7d",
+              "C": "#555555",
+              "Shell": "#89e051",
+              "MATLAB": "#bb92ac",
+              "HTML": "#e44b23",
               "JavaScript": "#f1e05a",
-              "CSS": "#563d7c",
+              "CSS": "#663399",
+              "Jupyter Notebook": "#DA5B0B",
+              "Dockerfile": "#384d54",
+              "Makefile": "#427819",
+              "R": "#198ce7",
           }
 
           width = 520
