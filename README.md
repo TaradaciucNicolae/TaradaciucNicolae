@@ -13,12 +13,12 @@
 
 
 
-
 <hr/>
+
+<h3 align="center">My Top Languages</h3>
+
 <p align="center">
-<a href="https://github.com/TaradaciucNicolae">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=TaradaciucNicolae&layout=compact&exclude_lang=java+r&theme=merko" />
-</a>
+  <img src="./images/top-languages-by-repo.svg" alt="My Top Languages by repository count" />
 </p>
 
 
