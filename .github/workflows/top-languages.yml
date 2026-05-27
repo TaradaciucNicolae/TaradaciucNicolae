@@ -65,27 +65,28 @@ jobs:
 
           width = 520
           row_height = 34
-          header_height = 58
-          footer_height = 22
+          header_height = 54
+          footer_height = 18
           height = header_height + len(ordered) * row_height + footer_height
 
           svg = []
           svg.append(f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">''')
           svg.append(f'''<rect width="{width}" height="{height}" rx="14" fill="#0d1117"/>''')
 
+          svg.append(f'''<text x="{width / 2}" y="34" text-anchor="middle" fill="#c9d1d9" font-size="20" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700">My Top Languages</text>''')
+
           y = header_height
 
           for language, count in ordered:
               percent = round((count / total) * 100, 1)
               color = colors.get(language, "#58a6ff")
-              bar_width = int((width - 210) * percent / 100)
+              bar_width = int((width - 230) * percent / 100)
 
               svg.append(f'''<circle cx="30" cy="{y + 13}" r="6" fill="{color}"/>''')
               svg.append(f'''<text x="46" y="{y + 18}" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Ubuntu, sans-serif">{language}</text>''')
-              svg.append(f'''<rect x="150" y="{y + 6}" width="{width - 240}" height="12" rx="6" fill="#21262d"/>''')
+              svg.append(f'''<rect x="150" y="{y + 6}" width="{width - 250}" height="12" rx="6" fill="#21262d"/>''')
               svg.append(f'''<rect x="150" y="{y + 6}" width="{bar_width}" height="12" rx="6" fill="{color}"/>''')
-              svg.append(f'''<text x="{width - 78}" y="{y + 18}" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif">{percent}%</text>''')
-              svg.append(f'''<text x="{width - 38}" y="{y + 18}" fill="#8b949e" font-size="12" font-family="Segoe UI, Ubuntu, sans-serif">{count}</text>''')
+              svg.append(f'''<text x="{width - 70}" y="{y + 18}" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif">{percent}%</text>''')
 
               y += row_height
 
