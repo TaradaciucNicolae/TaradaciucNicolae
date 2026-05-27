@@ -21,7 +21,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Cybersecurity-0D1117?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" alt="Cybersecurity" />
   <img src="https://img.shields.io/badge/Data%20%26%20AI-0D1117?style=for-the-badge&logo=googlegemini&logoColor=8E75B2" alt="Data & AI" />
-  <img src="https://img.shields.io/badge/Software%20Engineering-0D1117?style=for-the-badge&logo=codeforces&logoColor=white" alt="Software Engineering" />
+  <img src="https://img.shields.io/badge/Software%20Engineering-0D1117?style=for-the-badge&logo=sonarqube&logoColor=white" alt="Software Engineering" />
 </p>
 
 ---
