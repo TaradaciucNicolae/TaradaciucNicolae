@@ -1,4 +1,4 @@
-<img align="right" alt="Security illustration" width="220" src="./images/hacker_transparent.png" />
+<img align="right" alt="Security illustration" width="201" src="./images/hacker_transparent.png" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=800&size=32&duration=3000&pause=600&multiline=true&width=520&height=130&color=2EA043&vCenter=true&lines=%24+whoami;Nicolae+Taradaciuc" alt="Typing SVG" />
@@ -9,7 +9,6 @@
   <a href="mailto:nicolae.taradaciuc@gmail.com?subject=Hello%20Nicolae"><img src="https://img.shields.io/badge/Gmail-nicolae.taradaciuc%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
-<br clear="right" />
 
 ---
 
