@@ -1,0 +1,112 @@
+name: Generate top languages card
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate language card
+        run: |
+          python3 <<'PY'
+          import json
+          import urllib.request
+          from collections import Counter
+          from pathlib import Path
+
+          username = "TaradaciucNicolae"
+          url = f"https://api.github.com/users/{username}/repos?per_page=100&type=owner&sort=updated"
+
+          req = urllib.request.Request(
+              url,
+              headers={
+                  "Accept": "application/vnd.github+json",
+                  "User-Agent": "github-profile-language-card"
+              }
+          )
+
+          with urllib.request.urlopen(req) as response:
+              repos = json.loads(response.read().decode("utf-8"))
+
+          languages = Counter()
+
+          for repo in repos:
+              if repo.get("fork"):
+                  continue
+
+              language = repo.get("language")
+              if language:
+                  languages[language] += 1
+
+          total = sum(languages.values())
+          ordered = languages.most_common(6)
+
+          colors = {
+              "Python": "#2EA043",
+              "Java": "#f89820",
+              "C++": "#00599C",
+              "C": "#A8B9CC",
+              "Shell": "#89E051",
+              "MATLAB": "#e16737",
+              "HTML": "#e34c26",
+              "JavaScript": "#f1e05a",
+              "CSS": "#563d7c",
+          }
+
+          width = 520
+          row_height = 34
+          header_height = 58
+          footer_height = 22
+          height = header_height + len(ordered) * row_height + footer_height
+
+          svg = []
+          svg.append(f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">''')
+          svg.append(f'''<rect width="{width}" height="{height}" rx="14" fill="#0d1117"/>''')
+          svg.append(f'''<text x="24" y="34" fill="#c9d1d9" font-size="20" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700">My Top Languages</text>''')
+          svg.append(f'''<text x="24" y="53" fill="#8b949e" font-size="12" font-family="Segoe UI, Ubuntu, sans-serif">Based on repository count</text>''')
+
+          y = header_height
+
+          for language, count in ordered:
+              percent = round((count / total) * 100, 1)
+              color = colors.get(language, "#58a6ff")
+              bar_width = int((width - 210) * percent / 100)
+
+              svg.append(f'''<circle cx="30" cy="{y + 13}" r="6" fill="{color}"/>''')
+              svg.append(f'''<text x="46" y="{y + 18}" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Ubuntu, sans-serif">{language}</text>''')
+              svg.append(f'''<rect x="150" y="{y + 6}" width="{width - 240}" height="12" rx="6" fill="#21262d"/>''')
+              svg.append(f'''<rect x="150" y="{y + 6}" width="{bar_width}" height="12" rx="6" fill="{color}"/>''')
+              svg.append(f'''<text x="{width - 78}" y="{y + 18}" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif">{percent}%</text>''')
+              svg.append(f'''<text x="{width - 38}" y="{y + 18}" fill="#8b949e" font-size="12" font-family="Segoe UI, Ubuntu, sans-serif">{count}</text>''')
+
+              y += row_height
+
+          svg.append("</svg>")
+
+          Path("images").mkdir(exist_ok=True)
+          Path("images/top-languages-by-repo.svg").write_text("\n".join(svg), encoding="utf-8")
+          PY
+
+      - name: Commit language card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add images/top-languages-by-repo.svg
+
+          if git diff --cached --quiet; then
+            echo "No language card changes to commit."
+          else
+            git commit -m "Generate top languages by repository count"
+            git push
+          fi
