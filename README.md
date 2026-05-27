@@ -21,6 +21,14 @@
 
 ---
 
+<h3 align="center">Languages & Tools</h3>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,c,fastapi,flask,docker,git,github,linux,bash,sqlite,mysql,arduino,raspberrypi" alt="Languages and tools" />
+</p>
+
+---
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./images/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./images/github-snake.svg" />
