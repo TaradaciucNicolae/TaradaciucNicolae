@@ -16,7 +16,7 @@
 <hr/>
 
 <p align="center">
-  <img src="./images/top-languages-by-repo.svg" alt="My Top Languages by repository count" />
+  <img src="./images/top-languages.svg" alt="My Top Languages" />
 </p>
 
 
