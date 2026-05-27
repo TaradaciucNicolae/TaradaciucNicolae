@@ -9,20 +9,14 @@
 </a>
 
 <p>
-  <a href="https://www.linkedin.com/in/taradaciuc-nicolae">
-    <img src="https://img.shields.io/badge/LinkedIn-Nicolae%20Taradaciuc-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:nicolae.taradaciuc@gmail.com?subject=Hello%20Nicolae">
-    <img src="https://img.shields.io/badge/Gmail-Contact%20me-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
+  <a href="https://www.linkedin.com/in/taradaciuc-nicolae"><img src="https://img.shields.io/badge/LinkedIn-Nicolae%20Taradaciuc-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:nicolae.taradaciuc@gmail.com?subject=Hello%20Nicolae"><img src="https://img.shields.io/badge/Gmail-nicolae.taradaciuc%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
 </div>
 
 
----
 
-## 🐍 Contribution snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./images/github-snake-dark.svg" />
@@ -34,6 +28,5 @@
 
 <div align="center">
 
-### Building practical AI systems with a security-first mindset.
 
 </div>
