@@ -1,6 +1,3 @@
-<p align="right">
-  <img src="https://komarev.com/ghpvc/?username=TaradaciucNicolae&label=Profile%20views&color=2ea043&style=flat" alt="Profile views" />
-</p>
 
 <div align="center">
 
