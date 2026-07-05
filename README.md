@@ -6,7 +6,7 @@
 
 <p>
   <a href="https://www.linkedin.com/in/taradaciuc-nicolae"><img src="https://img.shields.io/badge/LinkedIn-Nicolae%20Taradaciuc-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:nicolae.taradaciuc@gmail.com?subject=Hello%20Nicolae"><img src="https://img.shields.io/badge/Gmail-nicolae.taradaciuc%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <!-- <a href="mailto:nicolae.taradaciuc@gmail.com?subject=Hello%20Nicolae"><img src="https://img.shields.io/badge/Gmail-nicolae.taradaciuc%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a> -->
 </p>
 
 
