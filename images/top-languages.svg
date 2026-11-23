@@ -21,10 +21,10 @@
 <rect x="150" y="162" width="270" height="12" rx="6" fill="#21262d"/>
 <rect x="150" y="162" width="30" height="12" rx="6" fill="#89e051"/>
 <text x="450" y="174" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif">10.5%</text>
-<circle cx="30" cy="203" r="6" fill="#f1e05a"/>
-<text x="46" y="208" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Ubuntu, sans-serif">JavaScript</text>
+<circle cx="30" cy="203" r="6" fill="#e44b23"/>
+<text x="46" y="208" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Ubuntu, sans-serif">HTML</text>
 <rect x="150" y="196" width="270" height="12" rx="6" fill="#21262d"/>
-<rect x="150" y="196" width="15" height="12" rx="6" fill="#f1e05a"/>
+<rect x="150" y="196" width="15" height="12" rx="6" fill="#e44b23"/>
 <text x="450" y="208" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Ubuntu, sans-serif">5.3%</text>
 <circle cx="30" cy="237" r="6" fill="#bb92ac"/>
 <text x="46" y="242" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Ubuntu, sans-serif">MATLAB</text>
